@@ -1,0 +1,66 @@
+/* VARIABLES */
+
+:root{
+    --black: #000000;
+    --gray: #373A3C;
+    --light: #DDDDDD;
+    --white: #FFFFFF;
+    --danger: #DC3545;
+}
+
+/* GENERAL */
+
+*{
+    font-family:"Cabin", sans-serif;
+    font-weight: 400;
+    color: var(--gray);
+}
+
+p{
+    font-size: 16px;
+}
+
+/* NAVBAR */
+
+nav{
+    background-color: var(--gray);
+}
+
+#logo{
+    font-family:"Lobster", sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    color: white;
+}
+
+/* HEADER */
+
+header button{
+    border-color: var(--light);
+}
+
+header p{
+    font-size: 16px;
+}
+
+/* NEWSLETTER */
+
+#newsletter h1{
+    color: var(--white);
+}
+
+#newsletter p span{
+    color: var(--white);
+    font-family:"Lobster", sans-serif;
+}
+
+#newsletter p{
+    color: var(--white);
+    font-size: 20px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #373A3C;
+}
